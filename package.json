@@ -1,0 +1,31 @@
+{
+  "name": "inuitcss-generator",
+  "version": "0.0.1",
+  "description": "Add a new line to main.scss and crete the related file at right place with template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "test2": "mocha --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayatbiralem/inuitcss-generator.git"
+  },
+  "keywords": [
+    "inuitcss",
+    "generator"
+  ],
+  "author": "Ömür Yanıkoğlu <hayatbiralem@gmail.com> (hayatbiralem.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hayatbiralem/inuitcss-generator/issues"
+  },
+  "homepage": "https://github.com/hayatbiralem/inuitcss-generator#readme",
+  "engines": {
+    "node": ">=6.2.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  }
+}
