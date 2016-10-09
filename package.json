@@ -1,11 +1,10 @@
 {
   "name": "inuitcss-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add a new line to main.scss and crete the related file at right place with template.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec",
-    "test-with-fun": "mocha --reporter nyan"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -25,15 +24,21 @@
     "node": ">=6.2.2"
   },
   "devDependencies": {
+    "assert": "^1.4.1",
     "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "child-process": "^1.0.2",
+    "del": "^2.2.2",
     "mocha": "^3.1.0"
   },
   "dependencies": {
     "chalk": "^1.1.3",
-    "command-line-args": "^3.0.1"
+    "command-line-args": "^3.0.1",
+    "command-line-usage": "^3.0.3",
+    "twig": "^0.9.5"
   },
   "preferGlobal": true,
   "bin": {
-    "inuit": "index.js"
+    "inuit": "./bin/cli"
   }
 }
