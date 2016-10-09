@@ -1,7 +1,7 @@
 Inuitcss Generator
 ===
 
-Add a new line to main.scss and crete the related file at right place with template.
+Simple CLI Tool for creating inuitcss files.
 
 ## Installation
 
@@ -9,8 +9,31 @@ Add a new line to main.scss and crete the related file at right place with templ
 
 ## Usage
 
-    var inuitcss = require('inuitcss-generator');
-    var file = inuitcss('main.scss', 'components', 'carousel');
+    inuitcss-generator v0.0.2
+    
+      Add a new line to main.scss and crete the related file at right place with
+      template.
+    
+    Types
+    
+      -s, --settings string[]     Add new settings file(s).
+      -t, --tools string[]        Add new tools file(s).
+      -g, --generic string[]      Add new generic file(s).
+      -e, --elements string[]     Add new elements file(s).
+      -o, --objects string[]      Add new objects file(s).
+      -c, --components string[]   Add new components file(s).
+      -u, --utilities string[]    Add new utilities file.
+    
+    Settings
+    
+      -b, --base string   Change base directory.
+      -m, --main string   Change default main file name.
+      -d, --desc string   Change default description message.
+    
+    Utils
+    
+      -i, --init    Create a fresh example main.scss file. Be careful when using it.
+      -h, --help    Print this usage guide.
 
 ## Tests
 
