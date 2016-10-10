@@ -9,7 +9,7 @@ Simple CLI Tool for creating inuitcss files.
 
 ## Usage
 
-    inuitcss-generator v0.0.2
+    inuitcss-generator v0.0.3
     
       Add a new line to main.scss and crete the related file at right place with
       template.
