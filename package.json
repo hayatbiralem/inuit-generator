@@ -1,6 +1,6 @@
 {
   "name": "inuitcss-generator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add a new line to main.scss and crete the related file at right place with template.",
   "main": "index.js",
   "scripts": {
